@@ -1,0 +1,18 @@
+p {
+	font-size: 20px !important;
+}
+p {
+	font-size:30px;
+}
+p,span,div {
+	background-color: yellow;
+}
+#identyfikator {
+	background-color: red;
+}
+div {
+	background-color: blue;
+}
+.klasa {
+	background-color: green;
+}
