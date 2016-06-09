@@ -1,0 +1,17 @@
+img {
+	display:block;
+	float:left;
+}
+.text {
+	
+	float:left;
+	width:300px;
+	high:40px;
+	border:1px solid;
+	
+	border-radius: 10px;
+    border: 1px solid #eaeae1;
+	-webkit-box-shadow: 4px 4px 10px -1px rgba(148,143,148,1);
+	-moz-box-shadow: 4px 4px 10px -1px rgba(148,143,148,1);
+	box-shadow: 4px 4px 10px -1px #eaeae1;
+}

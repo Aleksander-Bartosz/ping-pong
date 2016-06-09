@@ -1,0 +1,135 @@
+/*
+.div1 {
+	float:left;
+	border: 1px solid green;
+	width:300px;
+	height:300px;
+}
+.div2 {
+ float:left;	
+ border: 1px solid blue;
+ width:300px;
+ height:300px;
+}
+.container1 {
+	border: 1px solid red;
+	width:800px;
+}
+
+.div4 {
+	border: 1px solid yellow;
+	width:800px;
+	clear:both;
+	float:left;
+	 width:300px;
+ height:300px;
+}
+.menu {
+	float:left;
+	padding:5px;
+	border: 1px solid 	#FF00FF;
+}
+
+div p {
+	
+	border: 1px solid #FF00FF;
+	
+}
+.jezyk {
+	float:left;
+	width:200px;
+	height:200px;
+	background-image: url("jez.jpg");
+	background-size: 200px 200px;
+	border-radius:50%;
+	position: absolute;
+	right:20px;
+	bottom:280px;
+}
+
+.jezyk2 {
+	
+	width:200px;
+	height:200px;
+	background-image: url("jez.jpg");
+	background-size: 200px 200px;
+	border-radius:50%;
+	position: absolute;
+	left: 300px;
+	bottom:300px;
+	z-index:3;
+}
+.jezyk3 {
+	
+	width:200px;
+	height:200px;
+	background-image: url("jez.jpg");
+	background-size: 200px 200px;
+	border-radius:50%;
+	position: absolute;
+	left: 350px;
+	bottom:250px;
+	z-index:1;
+}
+*/
+.container2 {
+	margin-top:50px;
+	margin-left:20px;
+	width:360px;
+	height:470px;
+	border: 4px solid black;
+	text-align:center;
+	float:left;
+	
+}
+.kulko {
+	 border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 4px solid black;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -40px;
+    z-index: 1;
+}
+
+   
+
+.czarne {
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	background-color:black;
+	position:relative;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+	top:16px;
+	
+}
+
+p {
+	margin-top: 0;
+	padding:10px;
+}
+.stopa {
+	    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+	width:360px;
+	
+}
+input {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+}
+

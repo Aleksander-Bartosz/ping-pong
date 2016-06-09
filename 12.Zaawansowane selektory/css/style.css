@@ -1,0 +1,47 @@
+/*  zad 1 css
+
+div {
+	width:400px;
+	height:300px;
+}
+div:hover {
+	background-color:blue;
+	border-radius:120%;
+}
+div:active {
+	background-color:white;
+}
+
+https://jsfiddle.net/CodersLab/t1mp4gv3/    <<< zad 3
+*/
+
+
+
+
+.bottom a {
+	padding:0px 5px 0px 5px;
+	text-transform:uppercase;
+	background-color:yellow;
+	color:black;
+	font-size:20px;
+    height: 35px;
+    width: 90px;       
+    text-decoration: none;
+	border-radius:20%;
+	text-align:center;
+	line-height: 35px;
+	font-family: 'Helvetica', cursive;
+	margin:10px;
+
+		
+}
+.bottom a:visited {
+	background-color:#d6d6c2;
+}
+
+.bottom a:hover {
+	background-color:green;
+}
+
+
+
