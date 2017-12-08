@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html lang="pl-PL">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1" name="viewport"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <script src='scroll.js'></script>  
-    <script src='log.js'></script>  
-  </head>
-  <body>
-      <div class='container'>
-          <div class='count' data-id='scrollEl'><a href='#'>Div1</a></div>
-          <div class='count' data-id='scrollEl2'><a href='#'>Div2</a></div>
-          <div class='count' data-id='scrollEl3'><a href='#'>Div3</a></div>
-          <div class='count' data-id='scrollEl4'><a href='#'>Div4</a></div>
-          <div class='count' data-id='scrollEl5'><a href='#'>Div5</a></div>
-          
-          <div id='scrollEl'>scroll</div>
-          <div id='scrollEl2'>scroll</div>
-          <div id='scrollEl3'>scroll</div>
-          <div id='scrollEl4'>scroll</div>
-          <div id='scrollEl5'>scroll</div>
-      </div>
-  </body>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class='scoreKeeper'>
+            <div class='human'>0</div>
+            <button class='up'> speedUp</button>
+            <button class='down'> speedDown</button>
+            <div class='ai'>0</div>
+        </div>
+        <canvas></canvas>        
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
