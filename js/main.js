@@ -31,19 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     let ballSpeedX = 2;
     let ballSpeedY = 2;
-    const up = document.querySelector('.up');
-    const down = document.querySelector('.down');
-    
-    up.addEventListener('click', function () {
         
-        speedUp();
-    });
-    
-    down.addEventListener('click', function () {
-        
-        speedDown();
-    });
-    
     function player() {
         
         ctx.fillStyle='#50f442';
@@ -97,9 +85,10 @@ document.addEventListener("DOMContentLoaded", function () {
             ballSpeedY = 2;
         }
         else if ( ballX > aiX+60) {
+            ballSpeedX = -ballSpeedX;
             ballX = cw / 2 - ballSize/2;
             ballY = ch / 2 - ballSize/2;
-            ballSpeedX = +ballSpeedX;
+            
             ++pointsHuman;
             humanScore.innerHTML=pointsHuman;
             ballSpeedX = 2;
